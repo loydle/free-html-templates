@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.header-zone {
+ background-color: #000;
+ background-image: url('../images/sunset.jpeg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 300px;
+ max-height: 40vh;
+ min-height: 250px;
+ padding: 20px;
+}
+
+.header-zone__brand-link {
+ font-family: 'Cookie', sans-serif;
+ font-size: 50px;
+ color: #FFF;
+ text-decoration: none;
+}
+
+.header-zone__title {
+ color: #FFF;
+ margin: 0;
+ font-size: 29px;
+ font-weight: 700;
+ font-family: 'Roboto', sans-serif;
+}
+
+.header-zone__description {
+ color: #FFF;
+ font-size: 18px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 200;
+ margin-top: 4px;
+}
+
+.header-zone__call-to-action {
+ display: inline-block;
+ padding: 10px;
+ background-color: orange;
+ color: #FFF;
+ font-size: 20px;
+ text-decoration: none;
+ width: fit-content;
+ font-family: 'Roboto';
+ font-variant: small-caps;
+ border-radius: 6px;
+}
+
+.header-zone__call-to-action:hover {
+ background-color: #fff;
+ color: orange;
+ cursor: pointer;
+}
+
+.top-bar__container {
+ display: flex;
+}
+
